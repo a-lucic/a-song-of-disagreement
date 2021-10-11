@@ -1,4 +1,4 @@
-# Court of XAI
+# A Song of Disagreement
 
 ## Introduction
 
