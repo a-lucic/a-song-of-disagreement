@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Code to reproduce the results reported in the paper: "Order in the Court: Explainable AI Methods Prone to Disagreement". Our framework can be used to design and run additional experiments to calculate different correlation metrics between feature additive explanation methods. Currently, we assume you are interested in comparing at least one attention-based explanation method.
+Code to reproduce the results reported in the paper: "A Song of (Dis)agreement: Evaluating the Evaluation of Explainable AI". Our framework can be used to design and run additional experiments to calculate different correlation metrics between feature additive explanation methods, including attention-based explanations
 
 ## Setup
 
@@ -93,16 +93,3 @@ We currently support the following components (see the existing experiment files
   - Yilmaz tauAP where ties are allowed. Taken from [Pyircor](https://github.com/eldrin/pyircor)
   - Spearman-r
   - Pearson-rho
-
-## Citation
-
-```bibtex
-@misc{neely2021order,
-    title={Order in the Court: Explainable AI Methods Prone to Disagreement},
-    author={Michael Neely and Stefan F. Schouten and Maurits J. R. Bleeker and Ana Lucic},
-    year={2021},
-    eprint={2105.03287},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
-}
-```
